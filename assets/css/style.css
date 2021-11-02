@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand", sans-serif;
+  background: rgb(240, 240, 240);
+}
+
+.hero {
+  background-image: url("/assets/images/bg-desktop-light.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 55vh;
+}
+
+.list {
+  position: absolute;
+  width: 35%;
+  top: 15%;
+  left: 30%;
+  right: 30%;
+  height: 30vh;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 320px) {
+  .list {
+    width: 80%;
+    left: 11%;
+    right: 15%;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .list {
+    width: 80%;
+    left: 11%;
+    right: 15%;
+  }
+}
+
+/* @media only screen and (min-width: 414px) {
+  .list {
+    width: 80%;
+    left: 10%;
+    right: 15%;
+  }
+} */
+
+.task-container {
+  width: 100%;
+  background: none;
+}
+
+/* form {
+  padding: 5px 5px;
+} */
+
+.fa-trash-alt {
+  float: right;
+}
+
+a {
+  color: blueviolet !important;
+}
+
+li {
+  text-transform: capitalize;
+}
+
+.alert {
+  display: none;
+}
